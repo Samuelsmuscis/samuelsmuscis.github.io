@@ -3,7 +3,7 @@ body {
 }
 
 h1{
-  animation: type 6s steps(72);
+  animation: type 5s steps(100);
   color: #ffffff;
   font-size: auto;
   font-family: consolas;
