@@ -1,29 +1,28 @@
 body {
-    background-color: blue;
+  background-color: #a29bed;
 }
 
 h1{
-    animation: type 6s steps(72);
-    color: #ffffff;
-    font-size: auto;
-    font-family: consolas;
-    white-space: nowrap;
-    overflow: hidden;
-    }
-  
-  @keyframes type{
-    0%{
-      width:0ch;
-    }
-    
-    100%{
-      width:50ch;
-    }
+  animation: type 6s steps(72);
+  color: #ffffff;
+  font-size: auto;
+  font-family: consolas;
+  white-space: nowrap;
+  overflow: hidden;
+  }
+
+@keyframes type{
+  0%{
+    width:0ch;
   }
   
-  @keyframes blink{
-    0%{opacity:1;}
-    50%{opacity:0;}
-    100%{opacity:1;}
+  100%{
+    width:50ch;
   }
-  
+}
+
+@keyframes blink{
+  0%{opacity:1;}
+  50%{opacity:0;}
+  100%{opacity:1;}
+}
